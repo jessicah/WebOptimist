@@ -1,0 +1,17 @@
+SubDir TOP ;
+
+SubDirSysHdrs /boot develop headers private interface ;
+
+Application WebOptimist :
+	OptimistApp.cpp
+	OptimistWindow.cpp
+	:
+	/boot/common/lib/libjavascriptcore.so
+	/boot/common/lib/libwebcore.so
+	/boot/common/lib/libwebkit.so
+	/boot/common/lib/libwtf.so
+	stdc++
+	be network tracker translation
+	:
+	WebOptimist.rdef
+;

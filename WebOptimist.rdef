@@ -1,0 +1,17 @@
+resource app_signature "application/x-vnd.jessicah-WebOptimist";
+
+resource app_version {
+	major	=	0,
+	middle	=	0,
+	minor	=	1,
+	variety	=	B_APPV_ALPHA,
+	internal	=	0,
+	short_info	=	"WebOptimist",
+	long_info	=	"WebOptimist ©2012 Jessica L. Hamilton"
+};
+
+resource app_flags B_SINGLE_LAUNCH;
+
+resource file_types message {
+	"types"	=	"text/html"
+}
