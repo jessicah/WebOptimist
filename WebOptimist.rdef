@@ -14,4 +14,4 @@ resource app_flags B_SINGLE_LAUNCH;
 
 resource file_types message {
 	"types"	=	"text/html"
-}
+};
